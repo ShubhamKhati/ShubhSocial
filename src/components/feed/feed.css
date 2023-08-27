@@ -1,0 +1,67 @@
+.feed__container{
+    flex:6;
+    scroll-behavior: smooth;
+}
+.writePost__image{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.feed{
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+}
+.write__post{
+    /* border: solid black; */
+    padding: 10px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.upper{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.upper>input{
+    padding: 8px;
+    width: 85%;
+    border: none;
+    font-size: 18px;
+}
+.upper>input:focus{
+    outline: none;
+}
+.ul__seperator{
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.lower{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 8px;
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+.shareButton__container{
+    margin-left: 40px;
+}
+.action{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+.share__button{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(13,126,3);
+    color: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}

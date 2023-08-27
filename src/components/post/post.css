@@ -1,0 +1,61 @@
+.post__container{
+    margin-top: 20px;
+    /* border: solid black; */
+    padding: 8px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+.postProfile__image{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.postImage__container>img{
+    height: 350px;
+}
+.post__header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.postHeader__left{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.post__content{
+    /* border: solid black; */
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.postImage__container>img{
+    border-radius: 5px;
+}
+.post__footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+.postFooter__left{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.loveIcon__container{
+    margin-left: 15px;
+    cursor: pointer;
+    cursor: pointer;
+    background-color: aliceblue;
+    padding: 8px;
+    border-radius: 10px;
+}
+.likeIcon__container{
+    cursor: pointer;
+    background-color: aliceblue;
+    padding: 8px;
+    border-radius: 10px;
+}
